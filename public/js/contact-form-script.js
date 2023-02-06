@@ -29,12 +29,12 @@
             type: "POST",
             url: "assets/php/form-process.php",
             data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&phone_number=" + phone_number + "&message=" + message,
-            success : function(text){
-                if (text == "success"){
+            success : function(statustxt){
+                if (statustxt == "success"){
                     formSuccess();
                 } else {
                     formError();
-                    submitMSG(false,text);
+                    submitMSG(false,statustxt);
                 }
             }
         });
@@ -46,16 +46,16 @@
     }
 
     function formError(){
-        $("#contactForm").removeClass().addClass('animate__animated animate__shakeX').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+        $("#contactForm").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
             $(this).removeClass();
         });
     }
 
     function submitMSG(valid, msg){
         if(valid){
-            var msgClasses = "h4 submit-post-info tada animated text-success";
+            var msgClasses = "h4 tada animated text-success";
         } else {
-            var msgClasses = "h4 submit-post-info text-danger";
+            var msgClasses = "h4 text-danger";
         }
         $("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
     }

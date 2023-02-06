@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en-US" class="no-js no-svg">
+<html lang="en-US">
   <head>
      @include('includes.head')
   </head>
 
-  <body>
+  <body class="bg-color-home-four">
      <header class="row">
          @include('includes.header')
      </header>

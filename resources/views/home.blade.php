@@ -1,332 +1,473 @@
 @extends('layouts.default')
 @section('content')
 
-<!-- Feature-section -->
-<div class="feature-section pb-70 section-to-header">
-    <div class="container">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-3 pb-30">
-                    <div class="feature-card">
-                        <div class="feature-card-header">
-                            <div class="feature-card-thumb feature-card-thumb-green">
-                                <i class="flaticon-machine-learning-1"></i>
-                            </div>
-                            <span>Low Tax</span>
-                        </div>
-                        <div class="feature-card-body">
-                            <p>7% Tax Buy & Sell</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 pb-30">
-                    <div class="feature-card">
-                        <div class="feature-card-header">
-                            <div class="feature-card-thumb feature-card-thumb-yellow">
-                                <i class="flaticon-voice-recognition"></i>
-                            </div>
-                            <span>Anti Whale & Dump</span>
-                        </div>
-                        <div class="feature-card-body">
-                            <p>3.5% Max Wallet & Transaction</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 pb-30">
-                    <div class="feature-card">
-                        <div class="feature-card-header">
-                            <div class="feature-card-thumb feature-card-thumb-blue">
-                                <i class="flaticon-machine-learning"></i>
-                            </div>
-                            <span>Low of Supply</span>
-                        </div>
-                        <div class="feature-card-body">
-                            <p>50.000.000 $Erudex Tokens</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 pb-30">
-                    <div class="feature-card">
-                        <div class="feature-card-header">
-                            <div class="feature-card-thumb feature-card-thumb-violet">
-                                <i class="flaticon-processor"></i>
-                            </div>
-                            <span>Initial Liquidity</span>
-                        </div>
-                        <div class="feature-card-body">
-                            <p>1 ETH for Liquidity</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<!-- Start Main Banner Area -->
+<section class="main-banner-area main-banner-area-four">
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div class="banner-text">
+          <h1>Turn Your Documents Into Data With ANDROID AI</h1>
+          <p>Advanced system for the best future</p>
+          <div class="banner-btn">
+            <a class="default-btn" href="https://t.me/AndroidAIPortal">
+              JOIN US
+            </a>
+            <a class="default-btn active popup-youtube" href="https://www.dextools.io/app/en/ether/pair-explorer/">
+              <i class="bx bx-play"></i>
+              CHART
+            </a>
+          </div>
         </div>
+      </div>
+      <div class="col-lg-6 pr-0">
+        <div class="banner-four-main-img">
+          <img class="wow fadeInRight" data-wow-delay=".1s" src="{{ asset('img/home-four-banner/home-four-main-img.png') }}" alt="Image">
+        </div>
+      </div>
     </div>
+  </div>
+  <div class="over-shape">
+    <img src="{{ asset('img/home-one-banner/banner-one-shape/1.png') }}" alt="Image">
+    <img src="{{ asset('img/home-one-banner/banner-one-shape/1.png') }}" alt="Image">
+    <img src="{{ asset('img/home-one-banner/banner-one-shape/2.png') }}" alt="Image">
+    <img src="{{ asset('img/home-one-banner/banner-one-shape/2.png') }}" alt="Image">
+    <img src="{{ asset('img/home-one-banner/banner-one-shape/3.png') }}" alt="Image">
+  </div>
+</section>
+<!-- End Main Banner Area -->
+
+<!-- Start Brand Area -->
+<div class="brand-area ptb-100">
+  <div class="container">
+    <div class="brand-wrap owl-carousel owl-theme">
+      <div class="single-brand">
+        <a href="#">
+          <img src="{{ asset('img/brand/1.png') }}" alt="Image">
+        </a>
+      </div>
+      <div class="single-brand">
+        <a href="#">
+          <img src="{{ asset('img/brand/2.png') }}" alt="Image">
+        </a>
+      </div>
+      <div class="single-brand">
+        <a href="#">
+          <img src="{{ asset('img/brand/3.png') }}" alt="Image">
+        </a>
+      </div>
+      <div class="single-brand">
+        <a href="#">
+          <img src="{{ asset('img/brand/4.png') }}" alt="Image">
+        </a>
+      </div>
+      <div class="single-brand">
+        <a href="#">
+          <img src="{{ asset('img/brand/5.png') }}" alt="Image">
+        </a>
+      </div>
+      <div class="single-brand">
+        <a href="#">
+          <img src="{{ asset('img/brand/6.png') }}" alt="Image">
+        </a>
+      </div>
+      <div class="single-brand">
+        <a href="#">
+          <img src="{{ asset('img/brand/7.png') }}" alt="Image">
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
-<!-- Feature-section -->
-<!-- About-section -->
-<section class="about-section bg-off-white pt-100 pb-70" id="about">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6 pb-30">
-                <div class="about-section-item about-item-image text-center">
-                    <img src="{{ asset('images/feature-shape/feature-shape-1.png') }}" alt="shape">
-                </div>
-            </div>
-            <div class="col-lg-6 pb-30">
-                <div class="about-section-item about-item-details">
-                    <div class="section-title section-title-left text-start">
-                        <small>About Us</small>
-                        <h2>Mission Is To Bring The Power Of Erudex AI To Every Business</h2>
-                    </div>
-                    <div class="about-content">
-                        <ul>
-                            <li>Advance Advisory Team</li>
-                            <li>Advance Quality Experts</li>
-                            <li>Many variations of passages</li>
-                            <li>High-Quality Results</li>
-                        </ul>
-                        <a href="#" class="btn main-btn">About Us</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- About-section -->
-<!-- Service-section -->
-<section class="service-section pt-100 pb-70" id="services">
-    <div class="container">
-        <div class="section-title section-title-lg">
-            <small>Services</small>
-            <h2>Our Purpose Is To Deliver Excellence <br> In Service And Execution</h2>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="service-card">
-                    <div class="service-card-thumb">
-                        <i class="flaticon-automation"></i>
-                    </div>
-                    <div class="service-card-body">
-                        <h3>Robotic Automation</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="service-card">
-                    <div class="service-card-thumb">
-                        <i class="flaticon-predictive-chart"></i>
-                    </div>
-                    <div class="service-card-body">
-                        <h3>Predictive Analytics</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="service-card">
-                    <div class="service-card-thumb">
-                        <i class="flaticon-deep-learning"></i>
-                    </div>
-                    <div class="service-card-body">
-                        <h3>Deep Learning</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="service-card">
-                    <div class="service-card-thumb">
-                        <i class="flaticon-data-mining"></i>
-                    </div>
-                    <div class="service-card-body">
-                        <h3>Data Mining</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="service-card">
-                    <div class="service-card-thumb">
-                        <i class="flaticon-diagram"></i>
-                    </div>
-                    <div class="service-card-body">
-                        <h3>Statistical Modeling</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="service-card">
-                    <div class="service-card-thumb">
-                        <i class="flaticon-machine-learning-2"></i>
-                    </div>
-                    <div class="service-card-body">
-                        <h3>Security & Surveillance</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Service-section -->
-<!-- Choose-section -->
-<section class="choose-section pt-100 pb-70 bg-off-white">
-    <div class="container">
-        <div class="section-title">
-            <small>Why Choose Us</small>
-            <h2>Why People Choose Erudex For ML Services</h2>
-        </div>
-        <div class="process-content">
-            <div class="row justify-content-center">
-                <div class="col-md-6 col-lg-4 pb-30">
-                    <div class="process-item process-item-center border">
-                        <div class="process-thumb">
-                            <img src="{{ asset('images/process/process-four.png') }}" alt="shape">
-                        </div>
-                        <div class="process-text">
-                            <h3>Easy Model Building</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 pb-30">
-                    <div class="process-item process-item-center border">
-                        <div class="process-thumb">
-                            <img src="{{ asset('images/process/process-five.png') }}" alt="shape">
-                        </div>
-                        <div class="process-text">
-                            <h3>Robust ML Production Anywhere</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 pb-30">
-                    <div class="process-item process-item-center border">
-                        <div class="process-thumb">
-                            <img src="{{ asset('images/process/process-six.png') }}" alt="shape">
-                        </div>
-                        <div class="process-text">
-                            <h3>Powerful Experimentation</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Choose-section -->
+<!-- End Brand Area -->
 
-<!-- Project-section -->
-<section class="project-section pt-min-100 pb-100 bg-off-white" id="projects">
-    <div class="container">
-        <div class="section-title section-title-lg">
-            <h2>Erudex's Projects In Different Domain Of Industry</h2>
-            <p>Our purpose is to deliver excellence in service and execution Our purpose is to deliver excellence in service and Our purpose is to deliver excellence in service.</p>
+<!-- Start About Area -->
+<section class="about-area about-area-four pb-100" id="about">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div class="about-img">
+          <img src="{{ asset('img/about-img-three.png') }}" alt="Image">
         </div>
-    </div>
-    <div class="container-fluid p-md-0">
-        <div class="project-carousel owl-carousel owl-theme default-carousel">
-            <div class="item">
-                <div class="project-flat-card">
-                    <div class="project-flat-thumb">
-                        <a href="#">
-                            <img src="{{ asset('images/cases/case-lg-1.jpg') }}" alt="project">
-                        </a>
-                    </div>
-                    <div class="project-flat-text">
-                        <h3><a href="#">Drone And Robot Training</a></h3>
-                    </div>
-                </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="about-content">
+          <span>About Us</span>
+          <h2>Android AI is the Future of Advanced System</h2>
+          <div class="row">
+            <div class="col-lg-6 col-sm-6">
+              <ul>
+                <li>
+                  <i class="flaticon-checked"></i>
+                  Advanced Decision Maker
+                </li>
+                <li>
+                  <i class="flaticon-checked"></i>
+                  Unlimited  applications
+                </li>
+                <li>
+                  <i class="flaticon-checked"></i>
+                  Advanced ChatBot
+                </li>
+              </ul>
             </div>
-            <div class="item">
-                <div class="project-flat-card">
-                    <div class="project-flat-thumb">
-                        <a href="#">
-                            <img src="{{ asset('images/cases/case-lg-3.jpg') }}" alt="project">
-                        </a>
-                    </div>
-                    <div class="project-flat-text">
-                        <h3><a href="#">Data Mining Revolution</a></h3>
-                    </div>
-                </div>
+            <div class="col-lg-6 col-sm-6">
+              <ul>
+                <li>
+                  <i class="flaticon-checked"></i>
+                  Advanced Servers
+                </li>
+                <li>
+                  <i class="flaticon-checked"></i>
+                  Advanced Liquidity Locker
+                </li>
+                <li>
+                  <i class="flaticon-checked"></i>
+                  Optimized stack
+                </li>
+              </ul>
             </div>
-            <div class="item">
-                <div class="project-flat-card">
-                    <div class="project-flat-thumb">
-                        <a href="#">
-                            <img src="{{ asset('images/cases/case-lg-2.jpg') }}" alt="project">
-                        </a>
-                    </div>
-                    <div class="project-flat-text">
-                        <h3><a href="#">Automatic Project Management</a></h3>
-                    </div>
-                </div>
-            </div>
+          </div>
+          <a class="default-btn" href="#">
+            Learn More
+          </a>
         </div>
+      </div>
     </div>
+  </div>
 </section>
-<!-- Project-section -->
+<!-- End About Area -->
 
-<!-- News-section -->
-<section class="news-section pt-min-100 pb-70" id="news">
-    <div class="container">
-        <div class="section-title section-title-lg">
-            <h2>Upcoming News on Erudex AI</h2>
-            <p>Our purpose is to deliver excellence in service and execution Our purpose is to deliver excellence in service and Our purpose is to deliver excellence.</p>
+<!-- Start What We Offer Area -->
+<section class="offer-area offer-area-two offer-area-four pt-100 pb-70" id="services">
+  <div class="container">
+    <div class="section-title home-four-section-title">
+      <span>Services</span>
+      <h2>Our Professionals Services For You</h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="single-offer">
+          <i class="flaticon-chip"></i>
+          <h3>Robotics & Drones</h3>
         </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="single-offer">
+          <i class="flaticon-vr"></i>
+          <h3>Virtually Reality</h3>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="single-offer">
+          <i class="flaticon-blockchain"></i>
+          <h3>Blockchain Project</h3>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="single-offer">
+          <i class="flaticon-target"></i>
+          <h3>Image Processing</h3>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="single-offer">
+          <i class="flaticon-choice"></i>
+          <h3>Order Management</h3>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="single-offer">
+          <i class="flaticon-deep-learning"></i>
+          <h3>Machine Learning</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="offer-shape">
+    <img src="{{ asset('img/shape/offer-shape/1.png') }}" alt="Image">
+    <img src="{{ asset('img/shape/offer-shape/2.png') }}" alt="Image">
+    <img src="{{ asset('img/shape/offer-shape/3.png') }}" alt="Image">
+    <img src="{{ asset('img/shape/offer-shape/4.png') }}" alt="Image">
+    <img src="{{ asset('img/shape/offer-shape/5.png') }}" alt="Image">
+    <img src="{{ asset('img/shape/offer-shape/6.png') }}" alt="Image">
+    <img src="{{ asset('img/shape/offer-shape/6.png') }}" alt="Image">
+  </div>
+</section>
+<!-- End What We Offer Area -->
+
+<!-- Start Choose Us Area -->
+<section class="choose-ue-area pt-100" id="applications">
+  <div class="container">
+    <div class="row">
+      <div class="col-8">
+        <div class="choose-title home-four-section-title">
+          <span>APPLICATIONS</span>
+          <h2>Our Big Applications</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div class="choose-content">
+          <ul>
+            <li>
+              <span>01 <i class="flaticon-technical-support"></i></span>
+              <h3>Advanced DAPPs</h3>
+            </li>
+            <li class="ml">
+              <span>02 <i class="flaticon-shield"></i></span>
+              <h3>Liquidity Locker</h3>
+            </li>
+            <li class="ml-25">
+              <span>03 <i class="flaticon-support"></i></span>
+              <h3>Decentralized Applications</h3>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="choose-img">
+          <img src="{{ asset('img/choose-img.png') }}" alt="Image">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Choose Us Area -->
+
+<!-- Start Business Area -->
+<section class="business-area business-area-four ptb-100" id="tokenomic">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div class="business-content">
+          <h2>ANDROID AI TOKENOMIC</h2>
+        </div>
+        <div class="single-business">
+          <i class="flaticon-cyber-security"></i>
+          <h3>AI Will Automatic Cyber Security Improve</h3>
+        </div>
+        <div class="single-business">
+          <i class="flaticon-promotion"></i>
+          <h3>A Community With A Unique Mission</h3>
+        </div>
+      </div>
+      <div class="col-lg-6">
         <div class="row">
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="blog-card">
-                    <div class="blog-card-image">
-                        <a href="#">
-                            <img src="{{ asset('images/blogs/blog-1.jpg') }}" alt="blog">
-                        </a>
-                    </div>
-                    <div class="blog-card-text">
-                        <div class="blog-category">Technology</div>
-                        <h3><a href="#">Is Machine Learning Right Going On Good Way</a></h3>
-                    </div>
-                </div>
+          <div class="col-lg-6 col-sm-6 counter-nth">
+            <div class="single-counter">
+              <h2>
+                <span class="odometer" data-count="5">00</span> <span class="target">%</span>
+              </h2>
+              <p>TAX</p>
             </div>
-            <div class="col-md-6 col-lg-4 pb-30">
-                <div class="blog-card">
-                    <div class="blog-card-image">
-                        <a href="#">
-                            <img src="{{ asset('images/blogs/blog-2.jpg') }}" alt="blog">
-                        </a>
-                    </div>
-                    <div class="blog-card-text">
-                        <div class="blog-category">Robot</div>
-                        <h3><a href="#">The Current State Of Artificial Intelligence Infographic</a></h3>
-                    </div>
-                </div>
+          </div>
+          <div class="col-lg-6 col-sm-6 counter-nth">
+            <div class="single-counter">
+              <h2>
+                <span class="odometer" data-count="4">00</span> <span class="target">%</span>
+              </h2>
+              <p>MAX BAG</p>
             </div>
-            <div class="col-md-6 col-lg-4 offset-md-3 offset-lg-0 pb-30">
-                <div class="blog-card">
-                    <div class="blog-card-image">
-                        <a href="single-blog.html">
-                            <img src="{{ asset('images/blogs/blog-3.jpg') }}" alt="blog">
-                        </a>
-                    </div>
-                    <div class="blog-card-text">
-                        <div class="blog-category">Machine</div>
-                        <h3><a href="#">Our Company As A Global Leader In Big Data</a></h3>
-                    </div>
-                </div>
+          </div>
+          <div class="col-lg-6 col-sm-6 counter-nth">
+            <div class="single-counter">
+              <h2>
+                <span class="odometer" data-count="2">00</span> <span class="target">%</span>
+              </h2>
+              <p>MAX TRANSACTION</p>
             </div>
+          </div>
+          <div class="col-lg-6 col-sm-6 counter-nth">
+            <div class="single-counter">
+              <h2>
+                <span class="odometer" data-count="5">00</span> <span class="target"> MILLION</span>
+              </h2>
+              <p>TOTAL SUPPLY</p>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </section>
-<!-- News-section -->
-<!-- Newsletter-section -->
-<section class="newsletter-section pt-min-100 pb-100 page-bg page-bg-2 page-bg-overlay">
-    <div class="container position-relative">
-        <div class="section-title section-title-white">
-            <h2>Subscribe For Erudex's Newsletter</h2>
-            <p>Subscribe to our newsletter & stay updated</p>
+<!-- End Business Area -->
+
+<!-- End Case Area -->
+<section class="case-area pb-100">
+  <div class="container">
+    <div class="section-title home-four-section-title">
+      <span>Case</span>
+      <h2>Our Recent Case Studies</h2>
+    </div>
+    <div class="row">
+      <div class="case-top-wrap owl-carousel owl-theme">
+        <div class="case-wrap">
+          <div class="single-case">
+            <img src="{{ asset('/img/case/1.png') }}" alt="Image">
+            <a class="link-icon" href="#"><i class="bx bx-plus"></i></a>
+          </div>
+          <h3>
+            <a href="#">
+              Cognitive Architectures
+            </a>
+          </h3>
         </div>
-        <form class="newsletter-form">
-            <div class="form-group m-0 newsletter-form">
-                <input type="text" name="EMAIL" id="emails" class="form-control" placeholder="Enter Address*" required>
-                <button class="btn main-btn" type="submit">Subscribe</button>
-            </div>
-            <div id="validator-newsletter" class="form-result"></div>
-        </form>
+        <div class="case-wrap">
+          <div class="single-case">
+            <img src="{{ asset('/img/case/2.png') }}" alt="Image">
+            <a class="link-icon" href="#"><i class="bx bx-plus"></i></a>
+          </div>
+          <h3>
+            <a href="#">
+              Image Detection
+            </a>
+          </h3>
+        </div>
+        <div class="case-wrap">
+          <div class="single-case">
+            <img src="{{ asset('/img/case/3.png') }}" alt="Image">
+            <a class="link-icon" href="#"><i class="bx bx-plus"></i></a>
+          </div>
+          <h3>
+            <a href="#">
+              Software Liabries
+            </a>
+          </h3>
+        </div>
+        <div class="case-wrap">
+          <div class="single-case">
+            <img src="{{ asset('/img/case/4.png') }}" alt="Image">
+            <a class="link-icon" href="#"><i class="bx bx-plus"></i></a>
+          </div>
+          <h3>
+            <a href="#">
+              Architectures Liabries
+            </a>
+          </h3>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
-<!-- Newsletter-section -->
+<!-- End Case Area -->
+
+<!-- Strat News Area -->
+<section class="news-area pt-100 pb-70" id="blogs">
+  <div class="container">
+    <div class="section-title home-four-section-title">
+      <span>News</span>
+      <h2>Upcoming Blogs</h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="single-news">
+          <div class="blog-img">
+            <a href="#blogs">
+              <img src="{{ asset('/img/blog/1.png') }}" alt="Image">
+            </a>
+            <div class="dates">
+              <span>COMING SOON</span>
+            </div>
+          </div>
+          <div class="news-content-wrap">
+            <ul>
+              <li>
+                <a href="#blogs">
+                  <i class="flaticon-user"></i>
+                  Admin
+                </a>
+              </li>
+              <li>
+                <a href="#blogs">
+                  <i class="flaticon-conversation"></i>
+                  Comment
+                </a>
+              </li>
+            </ul>
+            <a href="#blogs">
+              <h3>Is Machine Learning Right For You</h3>
+            </a>
+            <a class="read-more" href="#blogs">
+              Read More
+              <i class="bx bx-plus"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="single-news">
+          <div class="blog-img">
+            <a href="#blogs">
+              <img src="{{ asset('/img/blog/2.png') }}" alt="Image">
+            </a>
+            <div class="dates">
+              <span>COMING SOON</span>
+            </div>
+          </div>
+          <div class="news-content-wrap">
+            <ul>
+              <li>
+                <a href="#blogs">
+                  <i class="flaticon-user"></i>
+                  Admin
+                </a>
+              </li>
+              <li>
+                <a href="#blogs">
+                  <i class="flaticon-conversation"></i>
+                  Comment
+                </a>
+              </li>
+            </ul>
+            <a href="#blogs">
+              <h3>The State Of Artificial Intelligence</h3>
+            </a>
+            <a class="read-more" href="#blogs">
+              Read More
+              <i class="bx bx-plus"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
+        <div class="single-news">
+          <div class="blog-img">
+            <a href="#blogs">
+              <img src="{{ asset('/img/blog/3.png') }}" alt="Image">
+            </a>
+            <div class="dates">
+              <span>COMING SOON</span>
+            </div>
+          </div>
+          <div class="news-content-wrap">
+            <ul>
+              <li>
+                <a href="#blogs">
+                  <i class="flaticon-user"></i>
+                  Admin
+                </a>
+              </li>
+              <li>
+                <a href="#blogs">
+                  <i class="flaticon-conversation"></i>
+                  Comment
+                </a>
+              </li>
+            </ul>
+            <a href="#blogs">
+              <h3>Our Company Machine Learning </h3>
+            </a>
+            <a class="read-more" href="#blogs">
+              Read More
+              <i class="bx bx-plus"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End News Area -->
 @stop
