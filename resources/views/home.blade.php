@@ -332,7 +332,7 @@
           </div>
           <h3>
             <a href="#">
-              Software Liabries
+              Software Libraries
             </a>
           </h3>
         </div>
@@ -343,7 +343,7 @@
           </div>
           <h3>
             <a href="#">
-              Architectures Liabries
+              Architectures Libraries
             </a>
           </h3>
         </div>
