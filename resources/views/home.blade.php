@@ -13,7 +13,7 @@
             <a class="default-btn" href="https://t.me/AndroidAIPortal">
               JOIN US
             </a>
-            <a class="default-btn active popup-youtube" href="https://www.dextools.io/app/en/ether/pair-explorer/">
+            <a class="default-btn active popup-youtube" href="https://www.dextools.io/app/en/ether/pair-explorer/0x1182ea8b007c3f46c04a5bcd047a7ee11abc758f">
               <i class="bx bx-play"></i>
               CHART
             </a>
