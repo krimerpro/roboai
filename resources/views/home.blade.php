@@ -13,7 +13,7 @@
             <a class="default-btn" href="https://t.me/AndroidAIPortal">
               JOIN US
             </a>
-            <a class="default-btn active popup-youtube" href="https://poocoin.app/tokens/0x04b41A739De870567F6d2d85eFf4C0EEdE8B91e5">
+            <a class="default-btn active popup-youtube" href="https://poocoin.app/tokens/0x62cEeee2b03fC56dD3CeC36CbC77A2608ABA6990">
               <i class="bx bx-play"></i>
               CHART
             </a>
@@ -258,7 +258,7 @@
           <div class="col-lg-6 col-sm-6 counter-nth">
             <div class="single-counter">
               <h2>
-                <span class="odometer" data-count="5">00</span> <span class="target">%</span>
+                <span class="odometer" data-count="4">00</span> <span class="target">%</span>
               </h2>
               <p>TAX</p>
             </div>
@@ -274,7 +274,7 @@
           <div class="col-lg-6 col-sm-6 counter-nth">
             <div class="single-counter">
               <h2>
-                <span class="odometer" data-count="2">00</span> <span class="target">%</span>
+                <span class="odometer" data-count="4">00</span> <span class="target">%</span>
               </h2>
               <p>MAX TRANSACTION</p>
             </div>
