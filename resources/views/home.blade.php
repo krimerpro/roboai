@@ -13,7 +13,7 @@
             <a class="default-btn" href="https://t.me/AndroidAIPortal">
               JOIN US
             </a>
-            <a class="default-btn active popup-youtube" href="https://poocoin.app/tokens/">
+            <a class="default-btn active popup-youtube" href="https://poocoin.app/tokens/0xBf244f6f4a343F6fbe19A5c746cA535881Ce81BE">
               <i class="bx bx-play"></i>
               CHART
             </a>
