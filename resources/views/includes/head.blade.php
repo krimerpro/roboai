@@ -3,11 +3,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<meta name="description" content="ANDROID AI | ETHEREUM">
-<meta name="keywords" content="ai, android, androidai, ethereum, machinelearning, blockchain, cryptocurrency, erc20">
+<meta name="description" content="ANDROID AI | BSC">
+<meta name="keywords" content="ai, android, androidai, smartchain, machinelearning, blockchain, cryptocurrency, bsc">
 <meta name="author" content="ANDROID">
 
-<title>ANDROID AI | ETHEREUM</title>
+<title>ANDROID AI | BSC</title>
 <link rel="icon" type="image/x-icon" href="{{ asset('images/android-logo.png') }}" sizes="16x16">
 
 <!-- Fonts -->
