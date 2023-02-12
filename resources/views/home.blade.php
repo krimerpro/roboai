@@ -143,21 +143,21 @@
           <div class="overlay-f relative"></div>
           <img src="images/elements/step1.svg" alt="">
           <h4 class="feat-head">TAX</h4>
-          <p class="feat-desc">5% Tax on Buy & Sell</p>
+          <p class="feat-desc" style="font-weight:bold">5% Tax on Buy & Sell</p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6">
         <div class="feat-box v2 text-center">
           <img src="images/elements/step2.svg" alt="">
           <h4 class="feat-head">MAX</h4>
-          <p class="feat-desc">5% Max Tx and Wallet</p>
+          <p class="feat-desc" style="font-weight:bold">5% Max Tx and Wallet</p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6">
         <div class="feat-box v2 text-center">
           <img src="images/elements/step3.svg" alt="">
           <h4 class="feat-head">SUPPLY</h4>
-          <p class="feat-desc">1 ETH Initial LP & 1.000.000.000 Tokens</p>
+          <p class="feat-desc" style="font-weight:bold">1 ETH Initial LP & 1.000.000.000 Tokens</p>
         </div>
       </div>
 
