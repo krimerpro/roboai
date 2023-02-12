@@ -20,7 +20,7 @@
                 </h1>
                 <p class="head-p">A brighter future for all. We will make a difference.</p>
                 <div class="btn-wrap">
-                        <a href="https://www.dextools.io/app/en/ether/pair-explorer/" class="btn btn-default main_btn"><span>DEXTOOLS CHART</span></a>
+                        <a href="https://www.dextools.io/app/en/ether/pair-explorer/0x3cf17d6a54d6da27121b22d104a70eff99ed6b34" class="btn btn-default main_btn"><span>DEXTOOLS CHART</span></a>
                         <a href="https://t.me/RoboAIEthereum" class="btn btn-default main_btn"><span>TELEGRAM GROUP</span></a>
 
                 </div>
