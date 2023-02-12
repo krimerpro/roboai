@@ -1,67 +1,34 @@
-<!-- Start Preloader Area -->
-<div class="preloader">
-  <div class="lds-ripple">
-    <div></div>
-    <div></div>
-  </div>
-</div>
-<!-- End Preloader Area -->
-
-<!-- Start Arduix Navbar Area -->
-<div id="header" class="arduix-nav-style">
-  <div class="navbar-area">
-    <!-- Menu For Mobile Device -->
-    <div class="mobile-nav">
-      <a href="#" class="logo">
-        <img src="{{ asset('img/white-logo.png') }}" alt="Logo">
-      </a>
-    </div>
-    <!-- Menu For Desktop Device -->
-    <div class="main-nav">
-      <nav class="navbar navbar-expand-md navbar-light">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="{{ asset('img/white-logo.png') }}" alt="Logo" style="width:50%">
-          </a>
-          <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto">
-              <li class="nav-item">
-                <a href="#" class="nav-link">Home</a>
-              </li>
-
-              <li class="nav-item">
-                <a href="#about" class="nav-link">About</a>
-              </li>
-
-              <li class="nav-item">
-                <a href="#services" class="nav-link">Services</a>
-              </li>
-
-              <li class="nav-item">
-                <a href="#services" class="nav-link">Applications</a>
-              </li>
-
-              <li class="nav-item">
-                <a href="#tokenomic" class="nav-link">Tokenomic</a>
-              </li>
-
-              <li class="nav-item">
-                <a href="#blogs" class="nav-link">Blogs</a>
-              </li>
-
-            </ul>
-            <!-- Start Other Option -->
-            <div class="others-option">
-              <a class="default-btn" href="#">
-                CONNECT
-                <i class="bx bx-log-in-circle"></i>
-              </a>
-            </div>
-            <!-- End Other Option -->
-          </div>
-        </div>
-      </nav>
+<!-- START PRELOADER -->
+  <div class="preloader">
+    <div class="spinner">
+      <div class="double-bounce1"></div>
+      <div class="double-bounce2"></div>
     </div>
   </div>
-</div>
-<!-- End Arduix Navbar Area -->
+<!-- END PRELOADER -->
+
+<!-- START NAVBAR -->
+  <div class="navbar navbar-default navbar-fixed-top menu-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand w-text">ROBO AI</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#home" class="smoothScroll">Home</a></li>
+          <li><a href="#about" class="smoothScroll">About</a></li>
+          <li><a href="#tokenomic" class="smoothScroll">Tokenomic</a></li>
+          <li><a href="#features" class="smoothScroll">Features</a></li>
+          <li><a href="#services" class="smoothScroll">Services</a></li>
+          <li><a href="#blog" class="smoothScroll">Blog</a></li>
+        </ul>
+      </div>
+    </div> <!--- END CONTAINER -->
+  </div>
+<!-- END NAVBAR -->

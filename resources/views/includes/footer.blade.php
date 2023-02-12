@@ -1,69 +1,42 @@
-<!-- Start Footer Bottom Area -->
-<footer class="footer-bottom-area">
+<!-- START FOOTER -->
+<footer class="footer-sec">
   <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-4">
-        <div class="copy-right">
-          <p>
-            Copyright <i class="bx bx-copyright"></i>2023 ANDROID AI. Designed By
-            <a href="#">ANDROID AI</a>
-          </p>
+    <div class="row text-center">
+
+      <div class="col-md-8 col-md-offset-2 col-xs-12">
+        <div class="sub_title">
+          <a href="#"><span>Home</span> </a>
+          <a href="#about"><span>About Us</span></a>
+          <a href="#tokenomic"><span>Tokenomics</span> </a>
+          <a href="#features"><span>Features</span> </a>
+          <a href="#services"><span>Services</span> </a>
+          <a href="#blog"><span>Blog</span> </a>
         </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="privacy">
-          <ul>
-            <li>
-              <a href="#">Terms & Conditions</a>
-            </li>
-            <li>
-              <a href="#">Privacy Policy</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="designed">
-          <p>Designed By <i class='bx bx-heart'></i> <a href="#" target="_blank">ANDORID AI TEAM</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
+        <ul class="banner_social_link">
+          <li><a href="https://t.me/RoboAIEthereum"><i class="fa fa-paper-plane"></i></a></li>
+          <li><a href="https://twitter.com/RoboAIErc"><i class="fa fa-twitter"></i></a></li>
+        </ul>
+
+        <p class="w-text">CopyRight © 2023 All Rights Reserved | ROBO AI Team</p>
+      </div> <!-- END COL -->
+    </div> <!--- END ROW -->
+  </div> <!--- END CONTAINER -->
 </footer>
-<!-- End Footer Bottom Area -->
+<!-- END FOOTER -->
 
-<!-- Start Go Top Area -->
-<div class="go-top">
-  <i class="bx bx-chevrons-up"></i>
-  <i class="bx bx-chevrons-up bx-fade-up"></i>
-</div>
-<!-- End Go Top Area -->
-
+<!-- Latest jQuery -->
 <script src="{{ asset('/js/jquery.min.js') }}"></script>
+<script src="{{ asset('/js/bootstrap.min.js') }}"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="{{ asset('/js/modernizr-2.8.3.min.js') }}"></script>
+<script src="{{ asset('/js/jquery.inview.min.js') }}"></script>
+<script src="{{ asset('/js/isotope.pkgd.min.js') }}"></script>
+<script src="{{ asset('/js/animated-headline.js') }}"></script>
+<script src="{{ asset('/js/lightbox.min.js') }}"></script>
+<script src="{{ asset('/js/SmoothScroll.js') }}"></script>
+<script src="{{ asset('/js/form-contact.js') }}"></script>
+<script src="{{ asset('/js/jquery.hoverdir.js') }}"></script>
+<script src="{{ asset('/js/scrolltopcontrol.js') }}"></script>
+<script src="{{ asset('/js/wow.min.js') }}"></script>
 
-<!-- Jquery Min JS -->
-<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-<!-- Bootstrap Bundle Min JS -->
-<script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
-<!-- Meanmenu Min JS -->
-<script src="{{ asset('js/meanmenu.min.js') }}"></script>
-<!-- Wow Min JS -->
-<script src="{{ asset('js/wow.min.js') }}"></script>
-<!-- Owl Carousel Min JS -->
-<script src="{{ asset('js/owl.carousel.min.js') }}"></script>
-<!-- Nice Select Min JS -->
-<script src="{{ asset('js/nice-select.min.js') }}"></script>
-<!-- Appear Min JS -->
-<script src="{{ asset('js/appear.min.js') }}"></script>
-<!-- Odometer Min JS -->
-<script src="{{ asset('js/odometer.min.js') }}"></script>
-<!-- Magnific Min JS -->
-<script src="{{ asset('js/magnific-popup.min.js') }}"></script>
-<!-- Ajaxchimp Min JS -->
-<script src="{{ asset('js/ajaxchimp.min.js') }}"></script>
-<!-- Form Validator Min JS -->
-<script src="{{ asset('js/form-validator.min.js') }}"></script>
-<!-- Contact JS -->
-<script src="{{ asset('js/contact-form-script.js') }}"></script>
-<!-- Custom JS -->
-<script src="{{ asset('js/custom.js') }}"></script>
+<script src="{{ asset('/js/main.js') }}"></script>

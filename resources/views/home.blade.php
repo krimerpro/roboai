@@ -1,473 +1,338 @@
 @extends('layouts.default')
 @section('content')
 
-<!-- Start Main Banner Area -->
-<section class="main-banner-area main-banner-area-four">
-  <div class="container-fluid">
-    <div class="row align-items-center">
-      <div class="col-lg-6">
-        <div class="banner-text">
-          <h1>Turn Your Documents Into Data With ANDROID AI</h1>
-          <p>Advanced system for the best future</p>
-          <div class="banner-btn">
-            <a class="default-btn" href="https://t.me/AndroidAIPortal">
-              JOIN US
-            </a>
-            <a class="default-btn active popup-youtube" href="https://poocoin.app/tokens/0x42E375806a9460fE0caE87662916243Ce7B99b2b">
-              <i class="bx bx-play"></i>
-              CHART
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 pr-0">
-        <div class="banner-four-main-img">
-          <img class="wow fadeInRight" data-wow-delay=".1s" src="{{ asset('img/home-four-banner/home-four-main-img.png') }}" alt="Image">
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="over-shape">
-    <img src="{{ asset('img/home-one-banner/banner-one-shape/1.png') }}" alt="Image">
-    <img src="{{ asset('img/home-one-banner/banner-one-shape/1.png') }}" alt="Image">
-    <img src="{{ asset('img/home-one-banner/banner-one-shape/2.png') }}" alt="Image">
-    <img src="{{ asset('img/home-one-banner/banner-one-shape/2.png') }}" alt="Image">
-    <img src="{{ asset('img/home-one-banner/banner-one-shape/3.png') }}" alt="Image">
-  </div>
-</section>
-<!-- End Main Banner Area -->
-
-<!-- Start Brand Area -->
-<div class="brand-area ptb-100">
-  <div class="container">
-    <div class="brand-wrap owl-carousel owl-theme">
-      <div class="single-brand">
-        <a href="#">
-          <img src="{{ asset('img/brand/1.png') }}" alt="Image">
-        </a>
-      </div>
-      <div class="single-brand">
-        <a href="#">
-          <img src="{{ asset('img/brand/2.png') }}" alt="Image">
-        </a>
-      </div>
-      <div class="single-brand">
-        <a href="#">
-          <img src="{{ asset('img/brand/3.png') }}" alt="Image">
-        </a>
-      </div>
-      <div class="single-brand">
-        <a href="#">
-          <img src="{{ asset('img/brand/4.png') }}" alt="Image">
-        </a>
-      </div>
-      <div class="single-brand">
-        <a href="#">
-          <img src="{{ asset('img/brand/5.png') }}" alt="Image">
-        </a>
-      </div>
-      <div class="single-brand">
-        <a href="#">
-          <img src="{{ asset('img/brand/6.png') }}" alt="Image">
-        </a>
-      </div>
-      <div class="single-brand">
-        <a href="#">
-          <img src="{{ asset('img/brand/7.png') }}" alt="Image">
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- End Brand Area -->
-
-<!-- Start About Area -->
-<section class="about-area about-area-four pb-100" id="about">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-6">
-        <div class="about-img">
-          <img src="{{ asset('img/about-img-three.png') }}" alt="Image">
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="about-content">
-          <span>About Us</span>
-          <h2>Android AI is the Future of Advanced System</h2>
+<!-- START BANNER-SHOW -->
+  <section id="home" class="main_banner v5 banner_bg">
+    <div class="display_table">
+      <div class="display_table_cell">
+        <div class="container">
           <div class="row">
-            <div class="col-lg-6 col-sm-6">
-              <ul>
-                <li>
-                  <i class="flaticon-checked"></i>
-                  Advanced Decision Maker
-                </li>
-                <li>
-                  <i class="flaticon-checked"></i>
-                  Unlimited  applications
-                </li>
-                <li>
-                  <i class="flaticon-checked"></i>
-                  Advanced ChatBot
-                </li>
-              </ul>
+            <div class="col-md-6">
+              <div class="banner_content text-left mt-30">
+                <span class="sm_title has-before">Automated Chatbot to grow Business!</span>
+                <h1 class="cd-headline clip">
+                  <span class="fw_300">Creative Artificial Startup Agency for </span>
+                  <span class="cd-words-wrapper c-cyan">
+                    <b class="is-visible fw_800">AI Data Analysis</b>
+                    <b class="fw_800">Chatbot Business</b>
+                    <b class="fw_800">Machine Learning</b>
+                  </span>
+                </h1>
+                <p class="head-p">A brighter future for all. We will make a difference.</p>
+                <div class="btn-wrap">
+                        <a href="https://www.dextools.io/app/en/ether/pair-explorer/" class="btn btn-default main_btn"><span>DEXTOOLS CHART</span></a>
+                        <a href="https://t.me/RoboAIEthereum" class="btn btn-default main_btn"><span>TELEGRAM GROUP</span></a>
+
+                </div>
+              </div>
             </div>
-            <div class="col-lg-6 col-sm-6">
-              <ul>
-                <li>
-                  <i class="flaticon-checked"></i>
-                  Advanced Servers
-                </li>
-                <li>
-                  <i class="flaticon-checked"></i>
-                  Advanced Liquidity Locker
-                </li>
-                <li>
-                  <i class="flaticon-checked"></i>
-                  Optimized stack
-                </li>
-              </ul>
+          </div> <!--- END ROW -->
+        </div> <!--- END CONTAINER -->
+      </div>
+    </div>
+    <div class="mouse_scroll">
+      <a href="#about" class="smoothScroll">
+        <div class="mouse">
+          <i class="ti-angle-double-down"></i>
+        </div>
+      </a>
+    </div>
+  </section>
+<!-- END BANNER-SHOW -->
+
+<!-- START ABOUT -->
+<section id="about" class="section_padding">
+  <div class="container">
+    <div class="row flex relative align-items-center">
+
+      <div class="row">
+
+        <div class="box-shadow col-md-10 " style="background: #fff;">
+          <div class="row">
+            <div class="col-md-5 no-pl col-sm-12 col-xs-12">
+              <div class="about_img">
+                <img src="images/about1.png" alt="about-img">
+              </div>
+            </div>
+            <div class="col-md-7 col-sm-12 col-xs-12">
+              <div class="about_content_area">
+                <h5 class="blue has-before">Dedicated Artificial Intelligence</h5>
+                <h3>Get Benefits of using latest Artificial Intelligence.</h3>
+                <p>The most powerful AI project on Ethereum network. The digital revolution has already changed how people live, work, and communicate. And it’s only just getting started. But the same technologies that have the potential to help billions of people live happier, healthier, and more productive lives are also creating new challenges for citizens and governments around the world. From election meddling to data breaches and cyberattacks, recent events have shown that technology is changing how we think about privacy, national security, and maybe even democracy itself. In this project, we examine challenges in five key areas that will shape the future of the digital age: justice system, impact on democracy, global security and international conflict, the impact of automations and AI on the jobs marketplace, identity, and privacy. </p>
+              </div>
             </div>
           </div>
-          <a class="default-btn" href="#">
-            Learn More
-          </a>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End About Area -->
+        <div class="col-md-2"><div class="about-txt"> <span>ABOUT US</span></div></div>
 
-<!-- Start What We Offer Area -->
-<section class="offer-area offer-area-two offer-area-four pt-100 pb-70" id="services">
-  <div class="container">
-    <div class="section-title home-four-section-title">
-      <span>Services</span>
-      <h2>Our Professionals Services For You</h2>
-    </div>
-    <div class="row">
-      <div class="col-lg-4 col-sm-6">
-        <div class="single-offer">
-          <i class="flaticon-chip"></i>
-          <h3>Robotics & Drones</h3>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <div class="single-offer">
-          <i class="flaticon-vr"></i>
-          <h3>Virtually Reality</h3>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <div class="single-offer">
-          <i class="flaticon-blockchain"></i>
-          <h3>Blockchain Project</h3>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <div class="single-offer">
-          <i class="flaticon-target"></i>
-          <h3>Image Processing</h3>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <div class="single-offer">
-          <i class="flaticon-choice"></i>
-          <h3>Order Management</h3>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <div class="single-offer">
-          <i class="flaticon-deep-learning"></i>
-          <h3>Machine Learning</h3>
-        </div>
       </div>
     </div>
-  </div>
-  <div class="offer-shape">
-    <img src="{{ asset('img/shape/offer-shape/1.png') }}" alt="Image">
-    <img src="{{ asset('img/shape/offer-shape/2.png') }}" alt="Image">
-    <img src="{{ asset('img/shape/offer-shape/3.png') }}" alt="Image">
-    <img src="{{ asset('img/shape/offer-shape/4.png') }}" alt="Image">
-    <img src="{{ asset('img/shape/offer-shape/5.png') }}" alt="Image">
-    <img src="{{ asset('img/shape/offer-shape/6.png') }}" alt="Image">
-    <img src="{{ asset('img/shape/offer-shape/6.png') }}" alt="Image">
-  </div>
+  </div> <!--- END CONTAINER -->
 </section>
-<!-- End What We Offer Area -->
+<!-- END ABOUT -->
 
-<!-- Start Choose Us Area -->
-<section class="choose-ue-area pt-100" id="applications">
+<section class="about2 section_padding relative">
   <div class="container">
     <div class="row">
-      <div class="col-8">
-        <div class="choose-title home-four-section-title">
-          <span>APPLICATIONS</span>
-          <h2>Our Big Applications</h2>
-        </div>
+      <div class="col-md-2">
+        <div class="about2-wrap relative"></div>
       </div>
-    </div>
-    <div class="row align-items-center">
-      <div class="col-lg-6">
-        <div class="choose-content">
-          <ul>
-            <li>
-              <span>01 <i class="flaticon-technical-support"></i></span>
-              <h3>Advanced DAPPs</h3>
-            </li>
-            <li class="ml">
-              <span>02 <i class="flaticon-shield"></i></span>
-              <h3>Liquidity Locker</h3>
-            </li>
-            <li class="ml-25">
-              <span>03 <i class="flaticon-support"></i></span>
-              <h3>Decentralized Applications</h3>
-            </li>
-          </ul>
+      <div class="box-shadow purple-bg col-md-10">
+          <div class="row">
+            <div class="col-md-6 no-pl col-sm-12 col-xs-12">
+              <div class="about_img">
+                <img src="images/about2.png" alt="about-img" />
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12 no-pr">
+              <div class="about_content_area custom">
+                <h5 class="c-cyan has-before">Dedicated Artificial Intelligence</h5>
+                <h3 class="w-text">Get Benefits of using latest Artificial Intelligence.</h3>
+                <p class="g-text">Digital Revolution: Technology, Power, & You</p>
+
+                <div class="row mt-30">
+                                  <div class="col-md-6">
+                                      <div class="side-feature-list-item">
+                                          <img src="images/elements/feature-1.svg" class="check-mark-icon" alt="">
+                                          <div class="foot-c-info">Fully Responsive & Mobile Friendly</div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                      <div class="side-feature-list-item">
+                                          <img src="images/elements/feature-2.svg" class="check-mark-icon" alt="">
+                                          <div class="foot-c-info">Clean &amp; Modern Advanced System</div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                      <div class="side-feature-list-item">
+                                          <img src="images/elements/feature-3.svg" class="check-mark-icon" alt="">
+                                          <div class="foot-c-info">Multi-Device Testing System </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                      <div class="side-feature-list-item">
+                                          <img src="images/elements/feature-4.svg" class="check-mark-icon" alt="">
+                                          <div class="foot-c-info">Great User Experience</div>
+                                      </div>
+                                  </div>
+
+                              </div>
+                              <div class="about_btn">
+                  <a href="#about" class="btn cyan-btn">Contact Us</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
         </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="choose-img">
-          <img src="{{ asset('img/choose-img.png') }}" alt="Image">
-        </div>
-      </div>
     </div>
   </div>
 </section>
-<!-- End Choose Us Area -->
 
-<!-- Start Business Area -->
-<section class="business-area business-area-four ptb-100" id="tokenomic">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-lg-6">
-        <div class="business-content">
-          <h2>ANDROID AI TOKENOMIC</h2>
-        </div>
-        <div class="single-business">
-          <i class="flaticon-cyber-security"></i>
-          <h3>AI Will Automatic Cyber Security Improve</h3>
-        </div>
-        <div class="single-business">
-          <i class="flaticon-promotion"></i>
-          <h3>A Community With A Unique Mission</h3>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="row">
-          <div class="col-lg-6 col-sm-6 counter-nth">
-            <div class="single-counter">
-              <h2>
-                <span class="odometer" data-count="4">00</span> <span class="target">%</span>
-              </h2>
-              <p>TAX</p>
-            </div>
-          </div>
-          <div class="col-lg-6 col-sm-6 counter-nth">
-            <div class="single-counter">
-              <h2>
-                <span class="odometer" data-count="4">00</span> <span class="target">%</span>
-              </h2>
-              <p>MAX BAG</p>
-            </div>
-          </div>
-          <div class="col-lg-6 col-sm-6 counter-nth">
-            <div class="single-counter">
-              <h2>
-                <span class="odometer" data-count="4">00</span> <span class="target">%</span>
-              </h2>
-              <p>MAX TRANSACTION</p>
-            </div>
-          </div>
-          <div class="col-lg-6 col-sm-6 counter-nth">
-            <div class="single-counter">
-              <h2>
-                <span class="odometer" data-count="5">00</span> <span class="target"> MILLION</span>
-              </h2>
-              <p>TOTAL SUPPLY</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End Business Area -->
 
-<!-- End Case Area -->
-<section class="case-area pb-100">
+<section  class="how-it-work none gray_bg section_padding pb_70" id="tokenomic">
   <div class="container">
-    <div class="section-title home-four-section-title">
-      <span>Case</span>
-      <h2>Our Recent Case Studies</h2>
+    <div class="section_heading text-center">
+      <h2>TOKENOMICS</h2>
+      <p>$ROBO tokenomic details</p>
     </div>
     <div class="row">
-      <div class="case-top-wrap owl-carousel owl-theme">
-        <div class="case-wrap">
-          <div class="single-case">
-            <img src="{{ asset('/img/case/1.png') }}" alt="Image">
-            <a class="link-icon" href="#"><i class="bx bx-plus"></i></a>
-          </div>
-          <h3>
-            <a href="#">
-              Cognitive Architectures
-            </a>
-          </h3>
-        </div>
-        <div class="case-wrap">
-          <div class="single-case">
-            <img src="{{ asset('/img/case/2.png') }}" alt="Image">
-            <a class="link-icon" href="#"><i class="bx bx-plus"></i></a>
-          </div>
-          <h3>
-            <a href="#">
-              Image Detection
-            </a>
-          </h3>
-        </div>
-        <div class="case-wrap">
-          <div class="single-case">
-            <img src="{{ asset('/img/case/3.png') }}" alt="Image">
-            <a class="link-icon" href="#"><i class="bx bx-plus"></i></a>
-          </div>
-          <h3>
-            <a href="#">
-              Software Libraries
-            </a>
-          </h3>
-        </div>
-        <div class="case-wrap">
-          <div class="single-case">
-            <img src="{{ asset('/img/case/4.png') }}" alt="Image">
-            <a class="link-icon" href="#"><i class="bx bx-plus"></i></a>
-          </div>
-          <h3>
-            <a href="#">
-              Architectures Libraries
-            </a>
-          </h3>
+      <div class="col-md-4 col-sm-6">
+        <div class="feat-box v2 text-center">
+          <div class="overlay-f relative"></div>
+          <img src="images/elements/step1.svg" alt="">
+          <h4 class="feat-head">TAX</h4>
+          <p class="feat-desc">5% Tax on Buy & Sell</p>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-<!-- End Case Area -->
+      <div class="col-md-4 col-sm-6">
+        <div class="feat-box v2 text-center">
+          <img src="images/elements/step2.svg" alt="">
+          <h4 class="feat-head">MAX</h4>
+          <p class="feat-desc">5% Max Tx and Wallet</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="feat-box v2 text-center">
+          <img src="images/elements/step3.svg" alt="">
+          <h4 class="feat-head">SUPPLY</h4>
+          <p class="feat-desc">1 ETH Initial LP & 1.000.000.000 Tokens</p>
+        </div>
+      </div>
 
-<!-- Strat News Area -->
-<section class="news-area pt-100 pb-70" id="blogs">
-  <div class="container">
-    <div class="section-title home-four-section-title">
-      <span>News</span>
-      <h2>Upcoming Blogs</h2>
-    </div>
-    <div class="row">
-      <div class="col-lg-4 col-md-6">
-        <div class="single-news">
-          <div class="blog-img">
-            <a href="#blogs">
-              <img src="{{ asset('/img/blog/1.png') }}" alt="Image">
-            </a>
-            <div class="dates">
-              <span>COMING SOON</span>
-            </div>
-          </div>
-          <div class="news-content-wrap">
-            <ul>
-              <li>
-                <a href="#blogs">
-                  <i class="flaticon-user"></i>
-                  Admin
-                </a>
-              </li>
-              <li>
-                <a href="#blogs">
-                  <i class="flaticon-conversation"></i>
-                  Comment
-                </a>
-              </li>
-            </ul>
-            <a href="#blogs">
-              <h3>Is Machine Learning Right For You</h3>
-            </a>
-            <a class="read-more" href="#blogs">
-              Read More
-              <i class="bx bx-plus"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="single-news">
-          <div class="blog-img">
-            <a href="#blogs">
-              <img src="{{ asset('/img/blog/2.png') }}" alt="Image">
-            </a>
-            <div class="dates">
-              <span>COMING SOON</span>
-            </div>
-          </div>
-          <div class="news-content-wrap">
-            <ul>
-              <li>
-                <a href="#blogs">
-                  <i class="flaticon-user"></i>
-                  Admin
-                </a>
-              </li>
-              <li>
-                <a href="#blogs">
-                  <i class="flaticon-conversation"></i>
-                  Comment
-                </a>
-              </li>
-            </ul>
-            <a href="#blogs">
-              <h3>The State Of Artificial Intelligence</h3>
-            </a>
-            <a class="read-more" href="#blogs">
-              Read More
-              <i class="bx bx-plus"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
-        <div class="single-news">
-          <div class="blog-img">
-            <a href="#blogs">
-              <img src="{{ asset('/img/blog/3.png') }}" alt="Image">
-            </a>
-            <div class="dates">
-              <span>COMING SOON</span>
-            </div>
-          </div>
-          <div class="news-content-wrap">
-            <ul>
-              <li>
-                <a href="#blogs">
-                  <i class="flaticon-user"></i>
-                  Admin
-                </a>
-              </li>
-              <li>
-                <a href="#blogs">
-                  <i class="flaticon-conversation"></i>
-                  Comment
-                </a>
-              </li>
-            </ul>
-            <a href="#blogs">
-              <h3>Our Company Machine Learning </h3>
-            </a>
-            <a class="read-more" href="#blogs">
-              Read More
-              <i class="bx bx-plus"></i>
-            </a>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </section>
-<!-- End News Area -->
+
+<!-- START FEATURES -->
+<section  class="features section_padding pb_70" id="features">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-6 col-sm-12 col-xs-12">
+        <div class="resume-container">
+          <div class="row">
+
+            <div class="col-md-12">
+              <h5 class="c-cyan">Why Choose Us</h5>
+                <h3 class="w-text"><i class="icon-trophy"></i>Core Features:</h3>
+              <div class="single_resume wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="icon-box">
+                  <img src="images/elements/i1.png" alt="">
+                </div>
+                <div class="resume-desc">
+                  <h5 class="w-text">Smart Analyzer</h5>
+                    <p class="g-text">Smart Contract Analyzer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="single_resume wow fadeInLeft" data-wow-delay="0.4s">
+                <div class="icon-box">
+                  <img src="images/elements/i2.png" alt="">
+                </div>
+                <div class="resume-desc">
+                  <h5 class="w-text">Adaptive Chatbot Assistant</h5>
+                    <p class="g-text">Advanced Chatbot for Human Assistant</p>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="single_resume wow fadeInLeft" data-wow-delay="0.6s">
+                <div class="icon-box">
+                  <img src="images/elements/i3.png" alt="">
+                </div>
+                <div class="resume-desc">
+                  <h5 class="w-text">Creative AI Platform</h5>
+                    <p class="g-text">Make Your Own NFT Design with Image Generator</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-sm-12 col-xs-12">
+
+      </div>
+    </div> <!--- END ROW -->
+  </div> <!--- END CONTAINER -->
+</section>
+<!-- END FEATURES -->
+
+
+<!-- START SERVICE -->
+<section id="services" class="serv-bg section_padding pb_70">
+  <div class="container">
+    <div class="section_heading text-center">
+      <h2 class="w-text">Our Main Services</h2>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="service_slider owl-carousel">
+          <div class="single_service">
+            <div class="service_icon">
+              <img src="images/elements/serv1.png" alt="">
+            </div>
+            <h4>System Automation</h4>
+            <a href="#services" class="btn graen-btn">Learn More</a>
+          </div>
+          <div class="single_service">
+            <div class="service_icon">
+              <img src="images/elements/serv2.png" alt="">
+            </div>
+            <h4> Targeted AI Merketing</h4>
+            <a href="#services" class="btn graen-btn">Learn More</a>
+          </div>
+          <div class="single_service">
+            <div class="service_icon">
+              <img src="images/elements/serv3.png" alt="">
+            </div>
+            <h4>Mobile Security</h4>
+            <a href="#services" class="btn graen-btn">Learn More</a>
+          </div>
+          <div class="single_service">
+            <div class="service_icon">
+              <img src="images/elements/serv4.png" alt="">
+            </div>
+            <h4>AI Business Training</h4>
+            <a href="#services" class="btn graen-btn">Learn More</a>
+          </div>
+          <div class="single_service">
+            <div class="service_icon">
+              <img src="images/elements/serv5.png" alt="">
+            </div>
+            <h4>Business Consulting</h4>
+            <a href="#services" class="btn graen-btn">Learn More</a>
+          </div>
+          <div class="single_service">
+            <div class="service_icon">
+              <img src="images/elements/serv6.png" alt="">
+            </div>
+            <h4>AI-Based Investments</h4>
+            <a href="#services" class="btn graen-btn">Learn More</a>
+          </div>
+        </div>
+      </div> <!-- End Col -->
+    </div> <!--- END ROW -->
+  </div> <!--- END CONTAINER -->
+</section>
+<!-- END SERVICE -->
+
+<!-- START BLOG -->
+<section id="blog" class="gray_bg section_padding pb_70">
+  <div class="container">
+    <div class="section_heading text-center">
+      <h2>Upcoming Blog Posts</h2>
+    </div>
+
+    <div class="row">
+      <div class="blog_slide_area">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="single_blog">
+            <div class="blog-thumb">
+              <div class="blog-image">
+                <img src="images/blog/blog1.jpg" class="img-responsive" alt="">
+              </div>
+              <div class="blog-info">
+                <span>| lifestyle</span>
+                <a href="#0"><h4>Beautiful Working Idea.</h4></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="single_blog">
+            <div class="blog-thumb">
+              <div class="blog-image">
+                <img src="images/blog/blog2.jpg" class="img-responsive" alt="">
+              </div>
+              <div class="blog-info">
+                <span>| lifestyle</span>
+                <a href="#0"><h4>Drive Traffic to Website</h4></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="single_blog">
+            <div class="blog-thumb">
+              <div class="blog-image">
+                <img src="images/blog/blog3.jpg" class="img-responsive" alt="">
+              </div>
+              <div class="blog-info">
+                <span>| lifestyle</span>
+                <a href="#0"><h4>Latest Business strategies</h4></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> <!--- END ROW -->
+  </div> <!--- END CONTAINER -->
+</section>
+<!-- END BLOG -->
 @stop

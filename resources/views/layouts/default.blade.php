@@ -4,7 +4,7 @@
      @include('includes.head')
   </head>
 
-  <body class="bg-color-home-four">
+  <body data-spy="scroll" data-target=".navbar" data-offset="70">
      <header class="row">
          @include('includes.header')
      </header>
