@@ -4,10 +4,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <meta name="description" content="ROBO AI">
-<meta name="keywords" content="robo, ai, roboai, ethereum, chain, blockchain, machinelearning, erc20, cryptocurrency">
+<meta name="keywords" content="robo, ai, roboai, smartchain, chain, blockchain, machinelearning, bsc, cryptocurrency">
 <meta name="author" content="ROBO">
 
-<title>ROBO AI</title>
+<title>ROBO AI | BINANCE SMART CHAIN</title>
 <link rel="icon" type="image/x-icon" href="{{ asset('images/robo.png') }}" sizes="16x16">
 
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,600,700,700i,800,900" rel="stylesheet">

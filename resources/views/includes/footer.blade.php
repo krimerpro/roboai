@@ -13,8 +13,8 @@
           <a href="#blog"><span>Blog</span> </a>
         </div>
         <ul class="banner_social_link">
-          <li><a href="https://t.me/RoboAIEthereum"><i class="fa fa-paper-plane"></i></a></li>
-          <li><a href="https://twitter.com/RoboAIErc"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://t.me/RoboAIBsc"><i class="fa fa-paper-plane"></i></a></li>
+          <li><a href="https://twitter.com/RoboAIBsc"><i class="fa fa-twitter"></i></a></li>
         </ul>
 
         <p class="w-text">CopyRight © 2023 All Rights Reserved | ROBO AI Team</p>

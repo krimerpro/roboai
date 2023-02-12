@@ -20,8 +20,8 @@
                 </h1>
                 <p class="head-p">A brighter future for all. We will make a difference.</p>
                 <div class="btn-wrap">
-                        <a href="https://www.dextools.io/app/en/ether/pair-explorer/0x3cf17d6a54d6da27121b22d104a70eff99ed6b34" class="btn btn-default main_btn"><span>DEXTOOLS CHART</span></a>
-                        <a href="https://t.me/RoboAIEthereum" class="btn btn-default main_btn"><span>TELEGRAM GROUP</span></a>
+                        <a href="https://poocoin.app/tokens/" class="btn btn-default main_btn"><span>DEXTOOLS CHART</span></a>
+                        <a href="https://t.me/RoboAIBsc" class="btn btn-default main_btn"><span>TELEGRAM GROUP</span></a>
 
                 </div>
               </div>
@@ -58,7 +58,7 @@
               <div class="about_content_area">
                 <h5 class="blue has-before">Dedicated Artificial Intelligence</h5>
                 <h3>Get Benefits of using latest Artificial Intelligence.</h3>
-                <p>The most powerful AI project on Ethereum network. The digital revolution has already changed how people live, work, and communicate. And it’s only just getting started. But the same technologies that have the potential to help billions of people live happier, healthier, and more productive lives are also creating new challenges for citizens and governments around the world. From election meddling to data breaches and cyberattacks, recent events have shown that technology is changing how we think about privacy, national security, and maybe even democracy itself. In this project, we examine challenges in five key areas that will shape the future of the digital age: justice system, impact on democracy, global security and international conflict, the impact of automations and AI on the jobs marketplace, identity, and privacy. </p>
+                <p>The most powerful AI project on Binance Smart Chain network. The digital revolution has already changed how people live, work, and communicate. And it’s only just getting started. But the same technologies that have the potential to help billions of people live happier, healthier, and more productive lives are also creating new challenges for citizens and governments around the world. From election meddling to data breaches and cyberattacks, recent events have shown that technology is changing how we think about privacy, national security, and maybe even democracy itself. In this project, we examine challenges in five key areas that will shape the future of the digital age: justice system, impact on democracy, global security and international conflict, the impact of automations and AI on the jobs marketplace, identity, and privacy. </p>
               </div>
             </div>
           </div>
@@ -157,7 +157,7 @@
         <div class="feat-box v2 text-center">
           <img src="images/elements/step3.svg" alt="">
           <h4 class="feat-head">SUPPLY</h4>
-          <p class="feat-desc" style="font-weight:bold">1 ETH Initial LP & 1.000.000.000 Tokens</p>
+          <p class="feat-desc" style="font-weight:bold">2 BNB Initial LP & 1.000.000.000 Tokens</p>
         </div>
       </div>
 
