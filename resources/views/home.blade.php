@@ -9,9 +9,9 @@
           <div class="row">
             <div class="col-md-6">
               <div class="banner_content text-left mt-30">
-                <span class="sm_title has-before">Automated Chatbot to grow Business!</span>
+                <span class="sm_title has-before">Automated Chatbot for The Future!</span>
                 <h1 class="cd-headline clip">
-                  <span class="fw_300">Creative Artificial Startup Agency for </span>
+                  <span class="fw_300">Creative Artificial Intelligence for </span>
                   <span class="cd-words-wrapper c-cyan">
                     <b class="is-visible fw_800">AI Data Analysis</b>
                     <b class="fw_800">Chatbot Business</b>
