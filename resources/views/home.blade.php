@@ -20,7 +20,7 @@
                 </h1>
                 <p class="head-p">A brighter future for all. We will make a difference.</p>
                 <div class="btn-wrap">
-                        <a href="https://poocoin.app/tokens/0x0042c25f977db5f3b1f58ff920b57b6381100bde" class="btn btn-default main_btn"><span>POOCOIN CHART</span></a>
+                        <a href="https://poocoin.app/tokens/" class="btn btn-default main_btn"><span>POOCOIN CHART</span></a>
                         <a href="https://t.me/RoboAIBsc" class="btn btn-default main_btn"><span>TELEGRAM GROUP</span></a>
 
                 </div>
